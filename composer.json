@@ -1,0 +1,19 @@
+{
+    "name": "arieiro/course-search",
+    "description": "use composer and php for create one search course online in alura",
+    "autoload": {
+        "psr-4": {
+            "Arieiro\\CourseSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antonioarieiro"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^4.0"
+    }
+}
